@@ -1,0 +1,45 @@
+Logistics System 1.0 
+====================
+
+fontColor: {"hex":"#141619"}
+bgColor: {"hex":"#EFEF18"}
+iconColor: {"hex":"#141619"}
+sloganColor: {"hex":"#000000"}
+
+Database    :   dblogic
+Tables      :   tbluser, tblcurrent, tblhistory
+                tbl...
+
+Theme Color [ Yellow ]
+Dashboard   [ Using Bootstrap ]
+
+- Login
+    a. Login Picture
+    b. Icons
+    c. Username, Password
+
+
+- Use combo box to specify what table the user want to view
+- then use text box to complete the search parameters.
+
+- Create login and Session
+- Create database and tables
+
+use mysqli_real_escape_string() to avoid error in search fields 
+
+[ OK ] Database creation 
+[ OK ] Login 
+[ OK ] Logout
+[ OK ] Dashboard (Bootstrap Main Menu)
+[ OK ] Create New User 
+[ OK ] Delete User 
+[ OK ] Update User 
+[ OK ] Password Reset 
+[ OK ] Change Password 
+[ xx ] About Page (on going...)
+[... ] Help *
+[... ] User Listing *
+[... ] Create Record
+[... ] Update Record
+[... ] Delete Record
+[... ] Chart Presentation in Dashboard / Summary 
